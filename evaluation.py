@@ -6,7 +6,8 @@ from torch.utils.data import DataLoader
 
 
 # Nicholas Lower
-# CS 722 HW4
+# Evaluation of GaitPart model pipeline.
+# Original paper - doi: 10.1109/CVPR42600.2020.01423
 
 def evaluate(data, model):
     model.eval()

@@ -12,7 +12,8 @@ from training import train
 from evaluation import evaluate
 
 # Nicholas Lower
-# CS 722 HW4
+# Complete pipeline construction for GaitPart model.
+# Original paper - doi: 10.1109/CVPR42600.2020.01423
 
 '''
     Full project 2 file. Creates, trains, then evaluates GaitPart model.

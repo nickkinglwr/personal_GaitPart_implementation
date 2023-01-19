@@ -2,7 +2,8 @@ import numpy as np
 import torch
 
 # Nicholas Lower
-# CS 722 HW4
+# Data augmentation for GaitPart model pipeline.
+# Original paper - doi: 10.1109/CVPR42600.2020.01423
 
 class ToTensor(object):
     def __call__(self, data):

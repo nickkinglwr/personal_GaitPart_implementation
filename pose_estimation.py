@@ -7,7 +7,8 @@ import cv2
 import glob
 
 # Nicholas Lower
-# CS 722 HW4
+# Data collection and data engineering stage in GaitPart model pipeline.
+# Original paper - doi: 10.1109/CVPR42600.2020.01423
 
 class FrameData(Dataset):
     '''

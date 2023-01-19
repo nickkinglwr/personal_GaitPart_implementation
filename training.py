@@ -4,7 +4,8 @@ from torchvision import transforms
 from torch.utils.data import DataLoader
 
 # Nicholas Lower
-# CS 722 HW4
+# Training stage in GaitPart model pipeline.
+# Original paper - doi: 10.1109/CVPR42600.2020.01423
 
 def train(data, model, criterion, epochs=1, lr=0.0001, wd=0.0):
     opt = torch.optim.Adam(model.parameters(), lr=lr, weight_decay=wd)

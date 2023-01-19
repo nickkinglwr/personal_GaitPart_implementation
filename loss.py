@@ -3,7 +3,8 @@ from torch import nn
 import torch.nn.functional as F
 
 # Nicholas Lower
-# CS 722 HW4
+# Triplet loss function for GaitPart model pipeline.
+# Original paper - doi: 10.1109/CVPR42600.2020.01423 
 
 class TripletLoss(nn.Module):
     def __init__(self, margin = 0.2):
